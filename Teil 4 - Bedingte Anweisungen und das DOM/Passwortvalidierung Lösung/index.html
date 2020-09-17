@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passwortvalidierung</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <label for="psw"><b>Passwort</b></label>
+            <input type="text" placeholder="Passwort eingeben" name="psw" onkeyup="onPasswordChanged()" id="passwordInput" required>
+            <p id="msg"></p>
+            <button type="submit" id="passwordButton" disabled="true" onclick="onButtonClick()">Passwort speichern</button>
+        </div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
